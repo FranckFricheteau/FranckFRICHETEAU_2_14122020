@@ -5,44 +5,50 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Reservia</title>
 <link rel="icon" type="image/png" href="img/Reservia@3x.png" />
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reservia.css">
 <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
 </head>
-<body>
 
- <!--ENTETE-->  
+<body>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS Valide !">
+</a>
+</p>
+
+ <!--ENTETE DE RESERVIA-->  
 <header class="header">
 <img class ="image" src="img/Reservia.svg" alt="Reservia">
 <nav class="navigation">
-<a class="navigationLink" href="#Hebergement" data-active="true">Hébergement</a> 
+<a class="navigationLink" href="#Hebergement" data-active="true">Hébergements</a> 
 <a class="navigationLink" href="#Activites">Activités</a>  
 </nav>
 <a class="Signup" href="#">S'inscrire</a>
 </header> 
-<!--ENTETE-->
+<!--ENTETE DE RESERVIA-->
 
-<!--CONTENU PRINCIPAL-->
+<!--CONTENU PRINCIPAL DE RESERVIA-->
 <main class="principal">
 
 <!--RECHERCHE-->
- <section class="recherche">
- <header class="rechercheHeader">
- <h1 class="titrePrincipal">Trouvez votre hébergement pour des vacances de rêve </h1>
- <p class="descriptionTitrePrincipal">En plein centre ville ou en pleine nature</p>
- </header>
+  <section class="recherche">
+  <header class="rechercheHeader">
+  <h1 class="titrePrincipal">Trouvez votre hébergement pour des vacances de rêve </h1> <!--Titre principal-->
+  <p class="descriptionTitrePrincipal">En plein centre ville ou en pleine nature</p>
+  </header>
 
-  <form class="rechercheForm" action="recherche.html" method="GET">
-   <span class="rechercheFormIcon">
-   <i class="fas fa-map-marker-alt rechercheFormIcon-icon"></i>
-   </span>
-   <input class="rechercheFormInput" type="text" placeholder="Marseille, France" size="1">
-   <button class="rechercheFormSubmitInput">
-   <span class="rechercheFormSubmitInput-text">Rechercher</span>
-   <i class="rechercheFormSubmitInputIcon fas fa-search"></i>
-   </button>
-   </form>
+  <form class="rechercheForm" action="recherche.html" method="GET"> <!--formulaire-->
+  <span class="rechercheFormIcon"> <!--conteneur générique en ligne (inline) pour les contenus phrasés -->
+  <i class="fas fa-map-marker-alt rechercheFormIcon-icon"></i> <!--Infos-bulles-->
+  </span>
+  <input class="rechercheFormInput" type="text" placeholder="Marseille, France" size="1">
+  <button class="rechercheFormSubmitInput">
+  <span class="rechercheFormSubmitInput-text">Rechercher</span>
+  <i class="rechercheFormSubmitInputIcon fas fa-search"></i>
+  </button>
+  </form>
 
-  <div class="rechercheFiltres">
+  <div class="rechercheFiltres"> <!--BLOC-->
   <h2 class="rechercheFiltresTitreSecondaire">Filtres</h2>
   <div class="rechercheFiltresBis">
   <div class="rechercheFiltresBisIcon">
@@ -82,22 +88,22 @@
   </div>
   <p class="rechercheResultat-Text">Plus de 500 logements sont disponibles dans cette ville</p>
   </div>   
- </section> 
+  </section> 
  <!--RECHERCHE-->
 
  <!--HEBERGEMENT-->
- <section class="hebergement" id="hebergement">
- <div class="hebergementPrincipal">
+  <section class="hebergement" id="hebergement">
+  <div class="hebergementPrincipal">
 
   <header class="hebergementPrincipal-First">
-  <h2 class="hebergementPrincipal-First-Title">Hébergement à Marseille</h2>  
+  <h2 class="hebergementPrincipal-First-Title">Hébergements à Marseille</h2>  
   </header>
 
-  <article class="hebergementPrincipal-Carte">
+  <article class="hebergementPrincipal-Carte"> <!--Article de la section-->
   <a href="#">
-  <figure class="hebergementPrincipal-Carte-Figure">
+  <figure class="hebergementPrincipal-Carte-Figure"> <!--représente une figure -->
   <img class="hebergementPrincipal-Carte-Figure-Img" src="./img/Hebergement/small/auberge-cannebiere.jpg" alt="Chambre avec un lit superposé avec une fenêtre et vue sur la ville.">
-  <figcaption class="hebergementPrincipal-Carte-Figure-Caption">
+  <figcaption class="hebergementPrincipal-Carte-Figure-Caption"> <!--TAG de la figure -->
   <h3 class="hebergementPrincipal-Carte-Figure-Caption-Title">Auberge à la Cannebière</h3>
   </figcaption>
   </figure>
@@ -113,7 +119,7 @@
   </a>
   </article>
 
-  <article class="hebergementPrincipal-Carte">
+  <article class="hebergementPrincipal-Carte"> 
   <a href="#">
   <figure class="hebergementPrincipal-Carte-Figure">
   <img class="hebergementPrincipal-Carte-Figure-Img" src="./img/Hebergement/small/hotel_du_port.jpg" alt="Chambre avec un lit superposé avec une fenêtre et vue sur la ville.">
@@ -216,7 +222,7 @@
   <a class="hebergementPrincipal-Vue" href="#">Afficher plus</a>    
   </div>
 
-  <aside class="hebergementPopulaire">
+  <aside class="hebergementPopulaire"> <!-- partie d'un document sous forme d'encadrés-->
   <h2 class="hebergementPopulaire-Titre">Les plus populaire
   <i class="fas fa-chart-line"></i>
   </h2>
@@ -332,7 +338,7 @@
     <div class="activites-Carte-Img">
     <img class="activites-Carte-Img-Bis" src="./img/Activites/small/ile_frioul.jpg" alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan">
     </div>
-    <h3 class="activites-Carte-Titre">ïle du Frioul</h3>
+    <h3 class="activites-Carte-Titre">Île du Frioul</h3>
     </a>
 
     <a href="#" class="activites-Carte Carte6">
@@ -344,7 +350,7 @@
     </section>
     </main>
     <!--ACTIVITES-->
-    <!--CONTENU PRINCIPAL-->
+    <!--CONTENU PRINCIPAL DE RESERVIA-->
 
     <!--PIED DE PAGE-->
     <footer class="pied-Page">
