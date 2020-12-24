@@ -5,9 +5,13 @@ Projet 2 - Travailler sur une maquette donnée au format desktop et mobile et co
 Éléments fournis par l'entreprise virtuelle :
 
 La maquette pour les résolutions ordinateurs et téléphones nous est donné.
+
 Toutes les images présentes sur le site sont aussi livrés en format small, medium.
+
 Les icones proviennent de Font Awesome
+
 Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
+
 La police est "Raleway"
 
 CAHIER DES CHARGES
