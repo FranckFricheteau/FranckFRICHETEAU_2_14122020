@@ -1,22 +1,9 @@
-/* https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout */
+/* source_URL=style.css.map */
 
-/* CODE COULEUR */
-/*https://htmlcolorcodes.com/fr/*/
-/*
-    #0065FC - Bleu
-    #DEEBFF - Bleu clair
-    #F2F2F2 - Gris
-    
-    
-/*************************/
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"); /*Police écriture Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 body {
   font-family: "Raleway", "Sans serif";
   margin: 0;
-  font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.2;
 }
 
 a {
@@ -32,8 +19,8 @@ a {
   }
 
   .image {
-    padding: 0 2rem; /*définir l'écart de remplissage, agit comme le em mais qui résoud le prolème de l'héritage*/
-    height: 50%;
+    padding: 0 2rem;
+    height: 2.813rem;
     grid-area: logo;
 
   }
@@ -46,21 +33,19 @@ a {
   }
 
   .navigationLink {
-    padding: 2rem; /* 1 rem = 10 px */
+    padding: 2rem;
     font-weight: 500;
     text-align: justify;
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
   }
 
- 
-
-  .navigationLink:hover {
+  .navigationLink[data-active=true] {
     color: #0065FC;
   }
 
-  .navigationLink[data-active=true]{
-    color:#0065FC;
+  .navigationLink:hover {
+    color: #0065FC;
   }
 
   .Signup {
@@ -72,8 +57,7 @@ a {
     font-weight: 600;
   }
 
-
-  @media screen and (min-width:600px){ /* largeur minimale pour très petits écrans min 600 px */
+  @media screen and (min-width:601px){
     .header {
       grid-template-columns: auto 1fr auto;
       grid-template-areas: "logo . navbar button";
@@ -88,9 +72,9 @@ a {
 
   }
 
-  @media screen and (max-width: 600px) { /* largeur maximale pour très petits écrans max 600 px */
+  @media screen and (max-width: 600px) {
     .header {
-      grid-template-columns: auto 1fr auto; /* <auto-track-list> values */
+      grid-template-columns: auto 1fr auto;
       grid-template-areas: "logo . button" "navbar navbar navbar";
     }
     .image {
@@ -133,7 +117,7 @@ a {
   .rechercheForm {
     display: inline-flex;
     max-width: 100%;
-    overflow: auto; /* définit comment gérer le dépassement du contenu d'un élément dans son bloc, laissé à l'utilisateur */
+    overflow: auto;
   }
 
   .rechercheFormIcon {
@@ -288,7 +272,7 @@ a {
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .rechercheFiltresTitreSecondaire {
       width: 100%;
     }
@@ -297,7 +281,7 @@ a {
     }
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 601px) {
     .rechercheFormSubmitInput-text {
       display: block;
     }
@@ -331,7 +315,7 @@ a {
     margin: 0;
   }
 
-  .hebergementPrincipal-Carte {
+  .herbergementPrincipal-Carte {
     background-color: white;
     padding: 0.375rem;
     border-radius: 1.25rem;
@@ -342,16 +326,14 @@ a {
     height: 100%;
   }
 
-  .hebergementPrincipal-Carte:hover{
-  transition-duration: 0.1s;
-  transform: scale(1.01);
-}
+  .herbergementPrincipal-Carte:hover {
+    transform: scale(1.00);
+  }
 
   .hebergementPrincipal-Carte-Figure {
     margin: 0;
   }
 
-  
   .hebergementPrincipal-Carte-Figure-Img {
     height: 7rem;
     object-fit: cover;
@@ -371,7 +353,6 @@ a {
 
   .hebergementPrincipal-Carte-Bis-Prix {
     font-weight: bold;
-    
   }
 
   .hebergementPrincipal-Carte-Infos{
@@ -402,7 +383,7 @@ a {
     justify-content: space-between;
   }
 
-  .hebergementPopulaire-Contenu {
+  .hhebergementPopulaire-Contenu {
     display: flex;
     align-items: stretch;
     height: 100%;
@@ -412,18 +393,20 @@ a {
   .hebergementPopulaire-Contenu-Img {
     position: relative;
     min-height: 100%;
-    width: 33%;
-    min-width: 33%;
-    max-width: 33%;
+    width: 25%;
+    min-width: 35%;
+    max-width: 35%;
     
   }
 
   .hebergementPopulaire-Contenu-Img-Bis {
-  border-radius: 1rem 0 0 1rem;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    position: relative;
+    border-radius: 1rem 0 0 1rem;
+    min-height: 100%;
+    width: 25%;
+    min-width: 35%;
+    max-width: 35%;
+    object-fit: fill;
   
   }
 
@@ -440,24 +423,8 @@ a {
     height: 8.75rem;
 
   }
-  .hebergementPrincipal-Carte-hebergementPopulaire-Carte {
-    background-color: white;
-    padding: 0.375rem;
-    border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    box-sizing: border-box;
-    height: 100%;
-  }
 
-  .hebergementPrincipal-Carte-hebergementPopulaire-Carte:hover{
-    transform: scale(1.01);
-    transition-duration: 0.1s;
-
-  }
-
-  @media (max-width: 1440px) { /* Largeur max pour grands ecrans (ordi ou television) */
+  @media (max-width: 1440px) {
     .hebergement {
       grid-template-columns: 1fr;
       row-gap: 2rem;
@@ -473,22 +440,22 @@ a {
     }
   }
 
-  @media (min-width: 925px) { /*Largeur min pour tablettes */
+  @media (min-width: 925px) {
     .hebergementPrincipal {
       grid-template-columns: repeat(3, 1fr);
     }
   }
-  @media (max-width: 925px) and (min-width: 650px) { /*Largeur max pour tablettes et largeur min pour très petits écrans */
+  @media (max-width: 925px) and (min-width: 650px) {
     .hebergementPrincipal {
       grid-template-columns: 1fr 1fr;
     }
   }
-  @media (max-width: 650px) { /*Largeur max pour très petits écrans */
+  @media (max-width: 650px) {
     .hebergementPrincipal {
       grid-template-columns: 1fr;
     }
   }
-  @media (max-width: 1000px) { /*Largeur max pour ordinateurs */
+  @media (max-width: 1000px) {
     .hebergementPopulaire {
       grid-template-columns: 1fr;
       grid-template-rows: auto repeat(3, 9rem);
@@ -534,7 +501,7 @@ a {
     margin: 1.2rem 1.5rem;
   }
 
-  @media (min-width: 1100px) { /* Largeur min pour ordinateurs */
+  @media (min-width: 1100px) {
     .activites {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
@@ -565,21 +532,21 @@ a {
     }
   }
 
-  @media (max-width: 1100px) { /* Largeur max pour ordinateurs */
+  @media (max-width: 1100px) {
     .activites {
       row-gap: 2rem;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto 12rem 12rem;
     }
   }
-  @media (max-width: 925px) { /* Largeur max pour tablettes */
+  @media (max-width: 925px) {
     .activites {
       row-gap: 2rem;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto 12rem 12rem 12rem;
     }
   }
-  @media (max-width: 650px) { /* Largeur max pour très petits écrans */
+  @media (max-width: 650px) {
     .activites {
       row-gap: 2rem;
       grid-template-columns: 1fr;
@@ -639,4 +606,4 @@ a {
     }
   }
 
-  /* https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout*/
+  /* source_URL=style.css.map */
