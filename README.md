@@ -14,7 +14,7 @@ Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
 
 La police est "Raleway"
 
-CAHIER DES CHARGES
+Cahier des charges : 
 
 Intégration HTML5 et CSS3 sans frameworks.
 
