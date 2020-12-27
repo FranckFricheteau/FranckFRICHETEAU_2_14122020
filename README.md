@@ -18,7 +18,7 @@ Cahier des charges :
 
 Intégration HTML5 et CSS3 sans frameworks.
 
-Un champ de recherche avec champ de saisie avec un texte pouvant être édité.
+Un champ de recherche non fonctionnel avec champ de saisie avec un texte pouvant être édité.
 
 Chaque carte d’hébergement devra être cliquable dans intégralité.
 
