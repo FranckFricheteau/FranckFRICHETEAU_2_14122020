@@ -11,12 +11,17 @@
 /*************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"); /*Police écriture Raleway */
+
+html {
+  scroll-behavior: smooth
+}
+
 body {
   font-family: "Raleway", "Sans serif";
   margin: 0;
   font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.2;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 /*Entête */
@@ -53,9 +58,8 @@ a {
     text-align: justify;
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
-  }
 
- 
+  }
 
   .navigationLink:hover {
     color: #0065FC;
@@ -121,7 +125,7 @@ a {
   /*recherche*/
 
   .principal {
-    max-width: 1440px;
+    max-width: 1450px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
