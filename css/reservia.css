@@ -19,6 +19,8 @@ body {
     line-height: 1.2;
 }
 
+/*Entête */
+
 a {
   color: inherit;
   text-decoration: none;
@@ -114,6 +116,9 @@ a {
       border-bottom-color: #0065FC;
     }
   }
+
+  /*contenu principal */
+  /*recherche*/
 
   .principal {
     max-width: 1440px;
@@ -272,7 +277,7 @@ a {
     margin: 0;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) { /* largeur maximale pour très petits écrans max 600 px */
     .rechercheForm {
       display: flex;
       width: 100%;
@@ -288,7 +293,7 @@ a {
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .rechercheFiltresTitreSecondaire {
       width: 100%;
     }
@@ -297,7 +302,7 @@ a {
     }
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 600px) { /* largeur min pour très petits écrans max 600 px */
     .rechercheFormSubmitInput-text {
       display: block;
     }
@@ -305,6 +310,8 @@ a {
       display: none !important;
     }
   }
+
+  /*hébergements */
 
   .hebergementPopulaire, .hebergementPrincipal {
     background-color: #F2F2F2;
@@ -495,6 +502,8 @@ a {
     }
   }
 
+  /*activités */
+
   .activites {
     display: grid;
     column-gap: 2rem;
@@ -586,6 +595,8 @@ a {
       grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
     }
   }
+
+  /*pied de page */
 
   .pied-Page {
     background-color: #F2F2F2;
