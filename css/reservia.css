@@ -5,7 +5,7 @@
 /*
     #0065FC - Bleu
     #DEEBFF - Bleu clair
-    #F2F2F2 - Gris
+    #F2F2F2 - Gris pour le fond
     
     
 /*************************/
@@ -13,7 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"); /*Police écriture Raleway */
 
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth /* défilement doux */
 }
 
 body {
@@ -177,7 +177,7 @@ a {
 
   .rechercheFormSubmitInput {
     background-color: #0065FC;
-    color: white;
+    color: #F2F2F2;
     font-weight: bold;
     border: none;
     border-radius: 0 1rem 1rem 0;
@@ -199,11 +199,11 @@ a {
     align-items: center;
   }
 
-  .rechercheFiltresBis {
+  .rechercheFiltresBis { 
     display: flex;
     align-items: center;
     margin-right: 2rem;
-    border: 2px solid #d9d9d9;
+    border: 2px solid #F2F2F2;
     border-radius: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -214,8 +214,8 @@ a {
   .rechercheFiltresBis:last-child {
     margin-right: 0;
   }
-  .rechercheFiltresBis:hover {
-    background-color: #f3f8ff;
+  .rechercheFiltresBis:hover { /*Les filtres changent de style au survol */
+    background-color: #F2F2F2;
     transform: scale(1.015);
   }
 
@@ -233,21 +233,21 @@ a {
   }
 
   .Money-Icon{
-    color : blue;
+    color :#0065FC;
 
   }
 
   .Child-Icon{
-    color : blue;
+    color : #0065FC;
 
   }
 
   .Heart-Icon {
-    color: blue;
+    color: #0065FC;
   }
 
   .Dog-Icon {
-    color: blue;
+    color:#0065FC;
   }
 
   .rechercheFiltresBisTitre {
@@ -265,7 +265,7 @@ a {
     width: 2rem;
     min-height: 2rem;
     min-width: 2rem;
-    border: solid 1px #d9d9d9;
+    border: solid 1px #F2F2F2;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -362,7 +362,6 @@ a {
     margin: 0;
   }
 
-  
   .hebergementPrincipal-Carte-Figure-Img {
     height: 7rem;
     object-fit: cover;
@@ -393,7 +392,7 @@ a {
     color: #0065FC;
   }
   .hebergementPrincipal-Carte-Infos-icon[data-active=false] {
-    color: #d9d9d9;
+    color: #DEEBFF;
   }
 
   .hebergementPrincipal-Vue {
@@ -452,10 +451,10 @@ a {
 
   }
   .hebergementPrincipal-Carte-hebergementPopulaire-Carte {
-    background-color: white;
+    background-color:#F2F2F2;
     padding: 0.375rem;
     border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 0 0 16px ;
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
