@@ -22,7 +22,7 @@ Un champ de recherche non fonctionnel avec champ de saisie avec un texte pouvant
 
 Chaque carte d’hébergement devra être cliquable dans intégralité.
 
-Les filtres sont non fonctionnels et doivent changer au survol.
+Les filtres sont non fonctionnels et doivent changer de style au survol.
 
 Les liens hébergements et Activités doivent mener aux sections de la page.
 
