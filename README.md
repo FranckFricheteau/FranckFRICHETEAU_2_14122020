@@ -38,6 +38,8 @@ Le  langage HTML et CSS sont séparés et le dossier est organisé.
 
 Le code doit avoir un dépôt distant et être versionné sur Github ou Gitlab.
 
+Moyens utilisés :
+
 Site déployé sur GitHub Pages
 
 Site réalisé avec l'éditeur de texte Visual Studio Code
