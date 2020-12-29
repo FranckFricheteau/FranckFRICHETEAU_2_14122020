@@ -32,8 +32,8 @@ Les images doivent être de bonne taille de manière à être les plus jolies po
 
 Le code utilisera les balises sémantiques et ne devra contenir aucune erreur au W3C Validator HTML et CSS.
 
-Site compatible avec Firefox, Chrome
+Site compatible avec toutes les versions de Firefox et de Chrome.
 
-HTML et CSS séparé et dossier organisé.
+Le  langage HTML et CSS sont séparés et le dossier est organisé.
 
 Le code doit avoir un dépôt distant sur Github ou Gitlab.
