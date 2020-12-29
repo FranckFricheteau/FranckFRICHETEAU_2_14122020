@@ -8,11 +8,11 @@ La maquette pour les résolutions ordinateurs et téléphones nous est donné.
 
 Toutes les images présentes sur le site sont aussi livrés en format small, medium.
 
-Les icones proviennent de Font Awesome
+Les icones proviennent de la bibliothèque Font Awesome
 
-Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
+Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
 
-La police est "Raleway"
+La police du site est "Raleway"
 
 Cahier des charges : 
 
@@ -22,18 +22,24 @@ Un champ de recherche non fonctionnel avec champ de saisie avec un texte pouvant
 
 Chaque carte d’hébergement devra être cliquable dans intégralité.
 
-Les filtres sont fonctionnels doivent changer au survol.
+Les filtres sont non fonctionnels et doivent changer de style au survol.
 
-Les liens hébergements et Activités doivent mener aux sections de la page.
+Les liens hébergements et Activités dans le menu du site sont des ancres qui doivent mener aux sections de la page.
 
-L’intégration doit prendre en charge la résolution tablette.
+L’intégration doit prendre en charge la résolution tablette même si la maquette au format tablette est absente.
 
 Les images doivent être de bonne taille de manière à être les plus jolies possibles de manière à ce que le site se charge rapidement.
 
 Le code utilisera les balises sémantiques et ne devra contenir aucune erreur au W3C Validator HTML et CSS.
 
-Site compatible avec Firefox, Chrome
+Site compatible avec toutes les versions de Firefox et de Chrome.
 
-HTML et CSS séparé et dossier organisé.
+Le  langage HTML et CSS sont séparés et le dossier est organisé.
 
-Le code doit avoir un dépôt distant sur Github ou Gitlab.
+Le code doit avoir un dépôt distant et être versionné sur Github ou Gitlab.
+
+Moyens utilisés :
+
+Site déployé sur GitHub Pages
+
+Site réalisé avec l'éditeur de texte Visual Studio Code
