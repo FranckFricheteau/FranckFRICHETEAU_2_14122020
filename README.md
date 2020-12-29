@@ -36,4 +36,4 @@ Site compatible avec toutes les versions de Firefox et de Chrome.
 
 Le  langage HTML et CSS sont séparés et le dossier est organisé.
 
-Le code doit avoir un dépôt distant sur Github ou Gitlab.
+Le code doit avoir un dépôt distant et être versionné sur Github ou Gitlab.
