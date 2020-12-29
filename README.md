@@ -26,7 +26,7 @@ Les filtres sont non fonctionnels et doivent changer de style au survol.
 
 Les liens hébergements et Activités dans le menu du site sont des ancres qui doivent mener aux sections de la page.
 
-L’intégration doit prendre en charge la résolution tablette.
+L’intégration doit prendre en charge la résolution tablette même si la maquette au format tablette est absente.
 
 Les images doivent être de bonne taille de manière à être les plus jolies possibles de manière à ce que le site se charge rapidement.
 
