@@ -8,11 +8,11 @@ La maquette pour les résolutions ordinateurs et téléphones nous est donné.
 
 Toutes les images présentes sur le site sont aussi livrés en format small, medium.
 
-Les icones proviennent de Font Awesome
+Les icones proviennent de la bibliothèque Font Awesome
 
-Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
+Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
 
-La police est "Raleway"
+La police du site est "Raleway"
 
 Cahier des charges : 
 
@@ -37,3 +37,7 @@ Site compatible avec toutes les versions de Firefox et de Chrome.
 Le  langage HTML et CSS sont séparés et le dossier est organisé.
 
 Le code doit avoir un dépôt distant et être versionné sur Github ou Gitlab.
+
+Site déployé sur GitHub Pages
+
+Site réalisé avec l'éditeur de texte Visual Studio Code
