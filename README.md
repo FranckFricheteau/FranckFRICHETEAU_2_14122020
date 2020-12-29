@@ -24,7 +24,7 @@ Chaque carte d’hébergement devra être cliquable dans intégralité.
 
 Les filtres sont non fonctionnels et doivent changer de style au survol.
 
-Les liens hébergements et Activités doivent mener aux sections de la page.
+Les liens hébergements et Activités dans le menu du site sont des ancres qui doivent mener aux sections de la page.
 
 L’intégration doit prendre en charge la résolution tablette.
 
