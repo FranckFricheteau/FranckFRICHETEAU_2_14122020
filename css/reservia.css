@@ -169,10 +169,10 @@ a {
     font-family: "Raleway", "Sans serif";
   }
 
-  .rechercheFormInput::placeholder { /* Par défaut, le texte est écrit avec la couleur bleue de la charte */
+  .rechercheFormInput::placeholder { /* Par défaut, le texte est écrit avec la couleur noire de la charte */
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
-    color:#0065fc;
+    color:black;
   }
 
   .rechercheFormSubmitInput { /* boutton recherche */
@@ -203,7 +203,7 @@ a {
     display: flex;
     align-items: center;
     margin-right: 2rem;
-    border: 2px solid #DEEBFF;
+    border: 2px solid #d9d9d9;
     border-radius: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -265,7 +265,7 @@ a {
     width: 2rem;
     min-height: 2rem;
     min-width: 2rem;
-    border: solid 1px#DEEBFF;
+    border: solid 1px #d9d9d9;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -388,11 +388,11 @@ a {
     margin: 0 0.75rem 0.25rem 0.75rem;
   }
 
-  .hebergementPrincipal-Carte-Infos-icon[data-active=true] {
+  .hebergementPrincipal-Carte-Infos-icon[data-active=true] { /* étoile bleu */
     color: #0065FC;
   }
-  .hebergementPrincipal-Carte-Infos-icon[data-active=false] {
-    color: #DEEBFF;
+  .hebergementPrincipal-Carte-Infos-icon[data-active=false] { /* étoile grise */
+    color: #d9d9d9; 
   }
 
   .hebergementPrincipal-Vue {
