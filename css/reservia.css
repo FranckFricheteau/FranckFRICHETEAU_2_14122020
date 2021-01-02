@@ -219,8 +219,8 @@ a {
     transform: scale(1.015);
   }
 
-  .rechercheFiltresBisIcon { /* couleur icon filtre */
-    background-color: #DEEBFF;
+  .rechercheFiltresBisIcon { /* couleur de la bulle de l'icon */
+    background-color:#DEEBFF;
     border-radius: 100%;
     height: 3rem;
     width: 3rem;
@@ -233,7 +233,7 @@ a {
   }
 
   .Money-Icon{
-    color :#0065FC;
+    color :#0065FC; /* couleur icône des filtres */
 
   }
 
