@@ -169,10 +169,10 @@ a {
     font-family: "Raleway", "Sans serif";
   }
 
-  .rechercheFormInput::placeholder {
+  .rechercheFormInput::placeholder { /* Par défaut, le texte est écrit avec la couleur bleue de la charte */
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
-    color:black;
+    color:#0065fc;
   }
 
   .rechercheFormSubmitInput { /* boutton recherche */
