@@ -13,7 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"); /*Police écriture Raleway */
 
 html {
-  scroll-behavior: smooth /* défilement doux */
+  scroll-behavior: smooth; /* défilement doux */
 }
 
 body {
